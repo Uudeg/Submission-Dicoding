@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+    </style> 
+
+ <script src="https://kit.fontawesome.com/64a3e73328.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="assets/styles/styles.css">
+
+
+    <title>Submission Belajar Dasar Pemrograman Web</title>
+</head>
+<body>
+<!-- Start Header -->
+    <header>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="navbar"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_item"><a href="#beranda" class="nav_link">Beranda</a></li>
+                <li class="nav_item"><a href="#hobi" class="nav_link">Hobi saya</a></li>
+                <li class="nav_item"><a href="#bio" class="nav_link">Biodata saya</a></li>
+                <li class="nav_item"><a href="#art" class="nav_link">Karya saya</a></li>
+            </ul>
+        </nav>
+    </header> 
+<!-- End Header -->
+
+<!-- Start Main Intro-->
+   <main class="intro" id="home">
+       <h1 class="section_subtitle section_subtitle--intro">Hi, Dhani here :^)</h1>
+       <p class="title_subtitle">Melalui web ini saya akan</p>
+       <p class="title_subtitle">menunjukkan beberapa hobi saya</p>
+   </main>
+<!-- End Main Intro-->
+
+<!-- Start Article -->
+    <article class="hobi" id="hobi">
+       <h2 class="section_title section_title--hobi">Hobi saya saat ini</h2>
+       <div class="hobiku">
+            <div class="hobby"> 
+                <h3>Programming</h3>
+                <p>Meskipun agak susah dan membingungkan saya memutuskan untuk belajar dari nol dan salah satu langkah awal saya yaitu dari web Dicoding
+                </p>
+            </div> 
+
+            <div class="hobby">
+                <h3>Menggambar</h3>
+                <p>Menggambar juga merupakan salah satu hobi yang saya dalami baru baru ini. Saya memiliki goal untuk bisa menggambar dengan kualitas profesional
+                </p>
+            </div>
+
+            <div class="hobby"> 
+                <h3>Berkebun</h3>
+                <p>Dan hobi saya yang terakhir yaitu berkebun. Menurut saya mengurus tanaman adalah skill yang harus dipelajari semua orang 
+                </p>
+            </div> 
+        
+       </div>
+
+       <a href="#art" class="btn">Karya saya</a>
+    </article>
+<!-- End Article -->
+
+<!-- Start Aside -->
+   <aside class="biodata" id="bio">
+       <h2 class="biodata_title biodata_title--about">Biodata</h2>
+       <p class="biodata_subtitle biodata_subtitle--about">Penuntut Ilmu</p>
+
+       <div class="biografi">
+            <p>Nama saya adalah Rahmat Ramadhani. Saya lahir di Berau, Kalimantan Timur pada tahun 2001. Saat saya menuntut ilmu di tingkat SMA saya masih belum tau apa yang ingin saya lakukan. Saat saya lulus saya pun memutuskan untuk belajar Pemrograman. Saat ini saya belajar di Institut Teknologi Kalimantan di program studi Informatika. Mari kita berjuang bersama!
+            </p> 
+        </div>
+
+       <img src="assets/image/RahmatRamadhani.jpg" alt="Foto saya" class="biodata_image">
+
+    <section class="biodata_bahasa">
+           <h4>Bahasa Pemrograman yang sedang saya pelajari</h4>
+                <button class ="c_button lang_button" >C++</button>
+                <button class ="java_button lang_button">Java</button>
+                <button class ="js_button lang_button">JavaScript</button>
+            <h4>Tools yang saya gunakan</h4>
+            <ul class="teknologi_list">
+                <li>Github</li>
+                <li>Visual Studio Code</li>
+                <li>Microsoft Office</li>
+                <li>Clip Studio Paint</li>
+                <li>Windows</li>
+            <ul>
+    </section>
+     
+
+   </aside>
+<!-- End Aside -->
+
+<!-- Start Section Misc -->
+    <section class="art" id="art">
+       <h2 class="section_title--art">Karya Saya</h2>
+       <p class="section_subtitle--art">Beberapa gambar yang saya buat menggunakan referensi</p>
+
+       <div class="row">
+           <div class="column">
+               <img src="assets/image/gambar_0.jpg" alt="hina">
+               <img src="assets/image/gambar_1.png" alt="violet">
+               <img src="assets/image/gambar_2.png" alt="diona">
+            </div>
+
+            <div class="column">
+               <img src="assets/image/gambar_3.png" alt="bunga lily">
+               <img src="assets/image/gambar_4.png" alt="self portrait">
+               <img src="assets/image/gambar_5.png" alt="kiss-shot">
+            </div>
+
+            <div class="column">
+               <img src="assets/image/gambar_6.png" alt="rei">
+               <img src="assets/image/gambar_7.png" alt="bunga matahari">
+            </div>  
+       </div>
+
+    </section>
+<!-- End Section Misc -->
+
+<!-- Start Footer -->
+    <footer class="footer">
+       <a href="mailto:rahmatdhani837@gmail.com" class="footer_link">rahmatdhani837@gmail.com</a>
+       <ul class="sosmed">
+            <li class="sosmed_item">
+                <a class="sosmed_link" href="https://github.com/Uudeg" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="sosmed_item">
+                <a class="sosmed_link" href="https://www.instagram.com/inidhanii/" target="_blank">
+                    <i class="fab fa-instagram"></i>  
+                </a>
+            </li>
+       </ul>
+    </footer>
+<!-- End Footer -->
+
+<!-- Start JS -->
+    <script src="assets/js/index.js"></script>
+<!-- End JS -->
+
+</body>
+</html>
